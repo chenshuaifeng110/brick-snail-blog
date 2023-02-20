@@ -269,7 +269,7 @@ dl, dd, dt {
   border-radius: 10px;
   margin: 120px auto 0;
   box-sizing: border-box;
-  padding: 40px 30px 68px 30px;
+  padding: 40px 30px 96px 30px;
 }
 
 .content-common-title {
@@ -285,11 +285,12 @@ dl, dd, dt {
   align-items: center;
   justify-content: space-around;
 }
-
+.xmind {
+  width: 360px;
+}
 .content-one-img {
-  width: 55%;
+  width: 58%;
   height: 380px;
-  opacity: 0;
 }
 
 .content-one-img-show {

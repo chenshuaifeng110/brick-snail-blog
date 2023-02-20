@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./favicon.ico" />
-  <title>MicroApp</title>
+  <title>Blog</title>
   <link rel="stylesheet" href="./home/css/index.css">
   <link rel="stylesheet" href="./home/css/animation.css">
   <link rel="stylesheet" href="./home/css/style.css">
@@ -27,7 +27,7 @@
           <div class='logo-con'>
             <a href="/">
               <img src="./home/assets/logo.png" alt="logo" class="logo-img">
-              <span class="logo-title">MicroApp</span>
+              <span class="logo-title">Blog</span>
             </a>
           </div>
           <nav class='header-nav'>
@@ -69,32 +69,25 @@
           <h3 class="content-common-title">由Vue搭建而成的IDE,可动态配置主题、可下载代码、在线运行编译</h3>
           <div class="content-common-detail">
             <img class='content-one-img' src="./home/assets/code-run.png" alt="">
-            <a href="https://wanglin2.github.io/code-run-online/#/" class='content-text'>
-              <br>支持多种预处理语言</br>
-              <br>支持多种布局随意切换</br>
-              <br>支持添加额外的css、js资源</br>
-              <br>内置多种常用模板</br>
-              <br>美观强大的控制台 ...</br>
+            <a href="https://chenshuaifeng110.github.io/brick-snail-blog/" class='content-text'>
+              <br>1.支持多种预处理语言</br>
+              <br>2.支持多种布局随意切换</br>
+              <br>3.支持添加额外的css、js资源</br>
+              <br>4.内置多种常用模板</br>
+              <br>5.美观强大的控制台 ...</br>
             </a>
           </div>
         </section>
         <section class="content-common">
-          <h3 class="content-common-title">无关技术栈，任何框架皆可使用</h3>
+          <h3 class="content-common-title">完全免费XMind的在线文档</h3>
           <div class="content-common-detail">
-            <div class="content-two-imgs-con">
-              <div class="content-two-img-con">
-                <img class="content-two-img-logo" src="./home/assets/react-logo.png" alt="">
-                <img class="content-two-img-code" src="./home/assets/react-code.png" alt="">
-              </div>
-              <div class="content-two-img-con">
-                <img class="content-two-img-logo" src="./home/assets/vue-logo.png" alt="">
-                <img class="content-two-img-code" src="./home/assets/vue-code.png" alt="">
-              </div>
-            </div>
-            <img class='content-common-arrow-right' src="./home/assets/arrow-right.png" alt="">
-            <div class='micro-app-con micro-app-con-two'>
-              <!-- <micro-app name="my-app2" url="http://localhost:3002/" /> -->
-            </div>
+            <a href="https://chenshuaifeng110.github.io/mind-map/#/" class='content-text xmind'>
+              <br>1.完全免费的在线文档</br>
+              <br>2.全能白板 • 思维导图 • BPMN • 电子表格 • PPT • Markdown</br>
+              <br>3.敬请期待：文档 • 流程图 • 简历 • 设计 • 图片编辑 • 甘特图 • 图表</br>
+              <br>4.丰富的属性 ...</br>
+            </a>
+            <img class='content-one-img' src="./home/assets/mind.png" alt="Xind">
           </div>
         </section>
   
@@ -179,7 +172,7 @@
       </footer>
       </div>
     <!-- partial:index.partial.html -->
-    <!-- <div id="partial">
+    <div id="partial">
       <div id="dandelion" class="dandelion">
         <div class="head">
           <div class="seed-wrapper outter">
@@ -906,29 +899,29 @@
       </div>
       <div class="text-container">
         <div>因为爱所以爱</div>
-      <a class="btn" href="#">&nbsp;了解作者&gt;</a>
+      <a class="btn" href="https://github.com/chenshuaifeng110">&nbsp;了解作者&gt;</a>
       </div>
-    </div> -->
+    </div> 
     <!-- partial -->
   </main>
   <script src="./home/js/index.js"></script>
   <script>
-    // const Eldandelion = document.getElementById('partial')
-    // const Elinner = document.getElementById('inner-container')
-    // setTimeout(() => {
-    //   Eldandelion.style.display = 'none'
-    //   Elinner.style.transition = '2s'
-    //   Elinner.style.display = 'block' 
-    // },7000)
-    // let time = 0
-    // let timer = null
-    // timer = setInterval(function(){
-    //   if(time > 1100){
-    //   clearInterval(timer)
-    //   }
-    //   time = time+10
-    //     Elinner.style.opacity = time/ 500;
-    //   },100);
+    const Eldandelion = document.getElementById('partial')
+    const Elinner = document.getElementById('inner-container')
+    setTimeout(() => {
+      Eldandelion.style.display = 'none'
+      Elinner.style.transition = '2s'
+      Elinner.style.display = 'block' 
+    },7000)
+    let time = 0
+    let timer = null
+    timer = setInterval(function(){
+      if(time > 1100){
+      clearInterval(timer)
+      }
+      time = time+10
+        Elinner.style.opacity = time/ 500;
+      },100);
   </script>
 </body>
 </html>
