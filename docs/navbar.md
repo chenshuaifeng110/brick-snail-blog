@@ -1,5 +1,5 @@
 - [API](zh-cn/api)
-- [常见问题](zh-cn/questions)
+- [Vue3](zh-cn/vue3/index)
 - 语言
   - [:cn: 中文](/zh-cn/)
   - [:uk: English](/en-us/)
