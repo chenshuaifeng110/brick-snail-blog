@@ -8,6 +8,11 @@ git clone https://github.com/jonsam-ng/vue-next.git
 yarn 
 ```
 
+```js
+npm init vite@latest
+
+npm init vue@latest
+```
 2. 按照一定的阅读顺序阅读源码，请先阅读基础部分。
 
 ## 说明

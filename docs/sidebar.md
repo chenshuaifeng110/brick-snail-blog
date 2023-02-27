@@ -1,5 +1,7 @@
 - Vue3 
   - [快速上手](zh-cn/vue3/index)
+  - [介绍](zh-cn/vue3/introduce)
+  - [使用](zh-cn/vue3/exmple)
   - [Proxy](zh-cn/vue3/proxy)
   - [源码-Handler](zh-cn/vue3/handler)
   - [源码-Effect](zh-cn/vue3/effect)

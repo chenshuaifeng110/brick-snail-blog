@@ -1,2 +1,2 @@
 - overview
-  * [Home](en-us/)
+  - [Home](en-us/)
