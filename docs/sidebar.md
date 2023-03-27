@@ -7,6 +7,7 @@
   - [源码-Effect](zh-cn/vue3/effect)
   - [源码-Computed](zh-cn/vue3/computed)
   - [runtime-core](zh-cn/vue3/runtimecore)
+  - [Vue3对比Vue2](zh-cn/vue3/compare)
 - Typescript 
   - [基础](zh-cn/typescript/index)
   - [基础2](zh-cn/typescript/base2)
