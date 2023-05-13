@@ -15,3 +15,5 @@
   - [函数](zh-cn/typescript/function)
   - [对象类型](zh-cn/typescript/object)
   - [泛型](zh-cn/typescript/generics)
+- git
+  - [git相关](zh-cn/git/index)
